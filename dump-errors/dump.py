@@ -5,7 +5,8 @@ import re
 import inspect
 import json
 
-ERRORS_PY_URL = "https://raw.githubusercontent.com/freeipa/freeipa/e1bd827bbf56970ddd02ec174bf2317b64e75514/ipalib/errors.py"
+# ERRORS_PY_URL = "https://raw.githubusercontent.com/freeipa/freeipa/e1bd827bbf56970ddd02ec174bf2317b64e75514/ipalib/errors.py"
+ERRORS_PY_URL = "https://raw.githubusercontent.com/freeipa/freeipa/release-4-6-8/ipalib/errors.py"
 
 import_regex = re.compile(r"^(from [\w\.]+ )?import \w+( as \w+)?$")
 
